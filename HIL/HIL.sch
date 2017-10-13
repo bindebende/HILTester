@@ -22643,9 +22643,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="+3V5" library="supply1" deviceset="+3V3" device="" value="TSTR_3V3"/>
 <part name="U$5" library="SparkFun-DiscreteSemi" deviceset="MMBZ27VCLT1" device="" value="zener_3.3V"/>
 <part name="U$10" library="SparkFun-DiscreteSemi" deviceset="MMBZ27VCLT1" device="" value="zener_3.3V"/>
-<part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF5" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF6" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="R72" library="resistor" deviceset="R-EU_" device="R0402" value="4k7"/>
 <part name="R73" library="resistor" deviceset="R-EU_" device="R0402" value="4k7"/>
@@ -22735,9 +22735,9 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
 <instance part="S1" gate="1" x="27.94" y="127" rot="R270"/>
 <instance part="F1" gate="1" x="22.86" y="152.4" rot="R270"/>
-<instance part="STANDOFF1" gate="G$1" x="289.56" y="27.94"/>
+<instance part="STANDOFF3" gate="G$1" x="289.56" y="27.94"/>
 <instance part="STANDOFF2" gate="G$1" x="294.64" y="27.94"/>
-<instance part="STANDOFF5" gate="G$1" x="309.88" y="27.94"/>
+<instance part="STANDOFF4" gate="G$1" x="309.88" y="27.94"/>
 <instance part="STANDOFF6" gate="G$1" x="314.96" y="27.94"/>
 <instance part="R72" gate="G$1" x="154.94" y="195.58" rot="R180"/>
 <instance part="R73" gate="G$1" x="193.04" y="134.62" rot="R180"/>

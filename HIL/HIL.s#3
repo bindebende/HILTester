@@ -26863,20 +26863,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="160.02" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="M1OUT" class="0">
-<segment>
-<wire x1="68.58" y1="35.56" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
-<label x="68.58" y="35.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="X1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="M2OUT" class="0">
-<segment>
-<wire x1="83.82" y1="35.56" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
-<label x="83.82" y="35.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="X2" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="M2S0" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="S0"/>
@@ -26917,13 +26903,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="U4" gate="A" pin="S0"/>
 <wire x1="269.24" y1="215.9" x2="266.7" y2="215.9" width="0.1524" layer="91"/>
 <label x="261.62" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="M0OUT" class="0">
-<segment>
-<pinref part="X4" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<label x="55.88" y="35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="AD2" class="0">
@@ -27282,6 +27261,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="320.04" y1="226.06" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
 <label x="322.58" y="226.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<label x="55.88" y="35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="CH2" class="0">
 <segment>
@@ -27289,12 +27273,22 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="218.44" y1="223.52" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
 <label x="220.98" y="223.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="68.58" y1="35.56" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<label x="68.58" y="35.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="X1" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="CH3" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="COMMON_IN/OUT"/>
 <wire x1="218.44" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
 <label x="220.98" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="83.82" y1="35.56" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<label x="83.82" y="35.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

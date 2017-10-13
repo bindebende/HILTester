@@ -27255,7 +27255,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="261.62" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CH1" class="0">
+<net name="CH3" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="COMMON_IN/OUT"/>
 <wire x1="320.04" y1="226.06" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
@@ -27279,7 +27279,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="X1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="CH3" class="0">
+<net name="CH1" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="COMMON_IN/OUT"/>
 <wire x1="218.44" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
