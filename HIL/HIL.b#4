@@ -241,8 +241,8 @@
 <text x="129.159" y="54.8386" size="1.016" layer="21" font="vector" rot="R180">-</text>
 <polygon width="0.254" layer="22">
 <vertex x="50.7746" y="102.9462"/>
-<vertex x="25.781" y="102.9462"/>
-<vertex x="25.781" y="97.7392"/>
+<vertex x="26.1112" y="102.8954"/>
+<vertex x="26.1112" y="97.6884"/>
 <vertex x="50.8" y="97.7392"/>
 <vertex x="50.8" y="102.8446"/>
 </polygon>
@@ -272,8 +272,8 @@
 <text x="116.5098" y="95.7326" size="1.27" layer="22" font="vector" rot="MR0">Communication</text>
 <polygon width="0.254" layer="21">
 <vertex x="15.5448" y="102.9716"/>
-<vertex x="25.4" y="102.9716"/>
-<vertex x="25.4" y="97.7392"/>
+<vertex x="25.2984" y="102.9716"/>
+<vertex x="25.2984" y="97.7392"/>
 <vertex x="15.5194" y="97.7392"/>
 <vertex x="15.5194" y="102.9462"/>
 </polygon>

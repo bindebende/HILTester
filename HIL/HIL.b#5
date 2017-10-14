@@ -270,6 +270,14 @@
 <text x="73.5584" y="95.7834" size="1.27" layer="22" font="vector" rot="MR0">Digital(D0-D25)</text>
 <text x="98.1202" y="94.5896" size="1.27" layer="22" font="vector" rot="MR0">JTAG</text>
 <text x="116.5098" y="95.7326" size="1.27" layer="22" font="vector" rot="MR0">Communication</text>
+<polygon width="0.254" layer="21">
+<vertex x="15.5448" y="102.9716"/>
+<vertex x="25.4" y="102.9716"/>
+<vertex x="25.4" y="97.7392"/>
+<vertex x="15.5194" y="97.7392"/>
+<vertex x="15.5194" y="102.9462"/>
+</polygon>
+<text x="23.0378" y="96.0882" size="1.27" layer="22" font="vector" rot="MR0">Power</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

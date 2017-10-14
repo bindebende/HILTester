@@ -278,6 +278,10 @@
 <vertex x="15.5194" y="102.9462"/>
 </polygon>
 <text x="21.9202" y="96.0374" size="1.27" layer="22" font="vector" rot="MR0">Power</text>
+<text x="17.2212" y="93.2434" size="1.27" layer="22" font="vector" rot="MR0">HILTester A2.0</text>
+<text x="17.1704" y="89.1794" size="1.27" layer="22" font="vector" rot="MR0">@bindebende</text>
+<text x="17.1196" y="87.0458" size="1.27" layer="22" font="vector" rot="MR0">2017.10.15.</text>
+<text x="17.1958" y="91.2622" size="1.27" layer="22" font="vector" rot="MR0">Engineered by</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
