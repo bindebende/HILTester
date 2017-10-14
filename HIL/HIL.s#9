@@ -11201,7 +11201,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <text x="-0.635" y="0.635" size="0.8" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.27" y="-0.635" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -18366,7 +18366,7 @@ distributor Buerklin 78F2475</description>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
 <text x="-2.1082" y="1.27" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="-4.445" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="0" y="-1.5494" size="0.4064" layer="27" ratio="10" rot="SR90">&gt;VALUE</text>
+<text x="0" y="-1.5494" size="0.3048" layer="27" ratio="10" rot="SR90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -18532,7 +18532,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.5494" y1="0.889" x2="0.6096" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="-1.5494" y1="0.889" x2="-1.5494" y2="-0.4572" width="0.1524" layer="21"/>
 <text x="-4.2418" y="2.413" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-1.8796" y="0.0254" size="0.4064" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-1.8796" y="0.0254" size="0.3048" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -21650,7 +21650,7 @@ W = angled&lt;p&gt;
 <pad name="18" x="8.89" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="19" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
 <pad name="20" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-11.938" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-13.208" y="-1.651" size="1.27" layer="21" ratio="10">1</text>
 <text x="-12.7" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.54" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="10.16" y="2.921" size="1.27" layer="21" ratio="10">20</text>
@@ -21922,7 +21922,7 @@ grid 15mm, 19649 Wickmann</description>
 <smd name="6" x="-2.54" y="4.4958" dx="1.0922" dy="2.0066" layer="1"/>
 <text x="-2.667" y="-1.27" size="1.016" layer="21">1</text>
 <text x="-4.826" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.096" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-3.81" y="-2.921" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.302" y1="0.508" x2="-1.778" y2="2.032" layer="21"/>
 <rectangle x1="-0.762" y1="0.508" x2="0.762" y2="2.032" layer="21"/>
 <rectangle x1="1.778" y1="0.508" x2="3.302" y2="2.032" layer="21"/>
@@ -22200,7 +22200,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0" layer="21" curve="-180"/>
 <text x="-4.6736" y="1.5494" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-4.4704" y="3.1496" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="0.1016" y="-2.7432" size="0.8128" layer="27" ratio="10" rot="SR90">&gt;VALUE</text>
+<text x="0.1016" y="-2.1082" size="0.4064" layer="27" ratio="10" rot="SR90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

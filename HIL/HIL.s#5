@@ -23877,7 +23877,8 @@ Tiva C Series, ARM Cortex M4F</description>
 <net name="N_$2" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="91.44" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
@@ -23885,16 +23886,35 @@ Tiva C Series, ARM Cortex M4F</description>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="U13" gate="-PWR" pin="!WAKE@64"/>
 <junction x="132.08" y="83.82"/>
+<pinref part="U13" gate="-PWR" pin="VBAT@68"/>
+<wire x1="132.08" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="76.2" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
+<junction x="137.16" y="83.82"/>
 </segment>
 </net>
 <net name="N_$24" class="0">
 <segment>
-<wire x1="132.08" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="86.36" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U13" gate="-PWR" pin="!RESET@70"/>
 <junction x="132.08" y="86.36"/>
+<wire x1="137.16" y1="86.36" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<junction x="25.4" y="81.28"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="86.36" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<junction x="27.94" y="81.28"/>
+<wire x1="137.16" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="96.52" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<junction x="137.16" y="86.36"/>
 </segment>
 </net>
 <net name="N_$28" class="0">
@@ -23955,20 +23975,6 @@ Tiva C Series, ARM Cortex M4F</description>
 <wire x1="50.8" y1="30.48" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
 <junction x="50.8" y="22.86"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N_$33" class="0">
-<segment>
-<pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<junction x="25.4" y="81.28"/>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="86.36" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<junction x="27.94" y="81.28"/>
 </segment>
 </net>
 <net name="USB_N" class="0">

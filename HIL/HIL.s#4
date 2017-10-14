@@ -23890,10 +23890,6 @@ Tiva C Series, ARM Cortex M4F</description>
 <wire x1="132.08" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="76.2" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <junction x="137.16" y="83.82"/>
-</segment>
-</net>
-<net name="N_$24" class="0">
-<segment>
 <wire x1="132.08" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="86.36" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
@@ -23915,6 +23911,7 @@ Tiva C Series, ARM Cortex M4F</description>
 <wire x1="137.16" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="96.52" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 <junction x="137.16" y="86.36"/>
+<wire x1="137.16" y1="83.82" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N_$28" class="0">
